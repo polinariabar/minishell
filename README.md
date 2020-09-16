@@ -16,3 +16,9 @@ relative or absolute path) like in bash
 * ; in the command should separate commands like in bash
 * ’ and " should work like in bash except for multiline commands
 * Redirections < > “>>” should work like in bash except for file descriptor aggregation
+
+## Other
+
+**Authors:**  
+*[Mark Veligod](https://github.com/markveligod)*  
+*[Polina Baranovskaya](https://github.com/polinariabar)*  
