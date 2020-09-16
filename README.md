@@ -16,6 +16,10 @@ relative or absolute path) like in bash
 * ; in the command should separate commands like in bash
 * ’ and " should work like in bash except for multiline commands
 * Redirections < > “>>” should work like in bash except for file descriptor aggregation
+* Pipes | should work like in bash
+* Environment variables ($ followed by characters) should work like in bash
+* $? should work like in bash
+* ctrl-C, ctrl-D and ctrl-\ should have the same result as in bash
 
 ## Other
 
