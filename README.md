@@ -1,6 +1,7 @@
 # minishell
 The objective of this project is to create a simple shell.
 
+## Task
 My shell should:
 * Show a prompt when waiting for a new command
 * Search and launch the right executable (based on the PATH variable or by using
@@ -20,6 +21,12 @@ relative or absolute path) like in bash
 * Environment variables ($ followed by characters) should work like in bash
 * $? should work like in bash
 * ctrl-C, ctrl-D and ctrl-\ should have the same result as in bash
+
+**Allowed external functions:**
+malloc, free, write, open, read, close, fork, wait,
+waitpid, wait3, wait4, signal, kill, exit, getcwd,
+chdir, stat, lstat, fstat, execve, dup, dup2, pipe,
+opendir, readdir, closedir, strerror, errno
 
 ## Other
 
