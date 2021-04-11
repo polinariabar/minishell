@@ -1,6 +1,7 @@
 # minishell
 The objective of this project is to create a simple shell.
 
+
 ## Task
 My shell should:
 * Show a prompt when waiting for a new command
